@@ -1,0 +1,17 @@
+.cabecalho--navegacao{
+   display: flex;
+}
+
+.cabecalho--nacegacao--link{
+   color: rgba(0,0,0,0.75);
+   text-decoration: none;
+   transition: 0.3s ease-in-out;
+}
+
+.cabecalho--nacegacao--link:hover{
+   color: var(--azul);
+}
+
+.cabecalho--redes{
+   display: flex;
+}
