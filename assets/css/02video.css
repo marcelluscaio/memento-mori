@@ -1,0 +1,38 @@
+.video{
+   margin-top: 38vh;
+}
+
+.video--wrapper{
+   width: 100%;
+}
+
+.video--wrapper > *{
+   margin: 0 auto;
+   display: block;
+}
+
+.video--frame{
+   border: 5px solid #000;
+   width: 75%;
+   height: 80vh;
+}
+
+.video--buttons{
+   width: 50%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 2rem;
+}
+
+.video--buttons--button{
+   display: inline-block;
+   text-decoration: none;
+   color: #FFF;
+   background-color: #000;
+   font-family: Arial, sans-serif;
+   font-weight: 900;
+   font-size: 21px;
+   text-transform: uppercase;
+   padding: 0.5em 1.25em;
+}

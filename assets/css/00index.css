@@ -1,9 +1,20 @@
 @import url("reset.css");
 @import url("01header.css");
+@import url("02video.css");
 
 :root{
-   --cinza: #cccccc;
+   --cinza: #dcdcdc;
    --azul: #335690;
+
+   --font-size-nm: 18px; 
+}
+
+*{
+   box-sizing: border-box;
+}
+
+body{
+   height: 400vh;
 }
 
 .cabecalho{
@@ -12,4 +23,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   position: fixed;
+   width: 100%;
+   top: 0;
 }
