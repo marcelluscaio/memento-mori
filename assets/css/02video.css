@@ -18,14 +18,16 @@
 }
 
 .video--buttons{
-   width: 50%;
+   width: 60%;
    display: flex;
    justify-content: space-around;
    align-items: center;
    margin-top: 2rem;
+   gap: 10%;
 }
 
 .video--buttons--button{
+   width: min(85%, 25vw);
    display: inline-block;
    text-decoration: none;
    color: var(--cinza);
@@ -35,4 +37,5 @@
    font-size: 21px;
    text-transform: uppercase;
    padding: 0.5em 1.25em;
+   text-align: center;
 }
