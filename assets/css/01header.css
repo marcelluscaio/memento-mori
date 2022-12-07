@@ -31,7 +31,7 @@
 .cabecalho--imagem{
    margin: auto 2.5rem;
    flex: 0;
-   height: 20vh;
+   height: calc(6vh + 6vw);
 }
 
 .cabecalho--redes{
