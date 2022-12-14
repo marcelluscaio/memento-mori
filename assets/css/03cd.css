@@ -1,7 +1,8 @@
 .cd{
    display: flex;
+   justify-content: center;
    gap: calc(2vw + 2vh);
-   padding: calc(3vw + 3vh) calc(8vw + 8vh) calc(1vw + 1vh);
+   padding: calc(3vw + 3vh) 0 calc(1vw + 1vh);
 }
 
 .cd__cover{
